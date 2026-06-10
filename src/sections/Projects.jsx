@@ -1,4 +1,4 @@
-import { projects } from "../data/projects";
+import { projects } from "../data/jeje";
 import { motion } from "framer-motion";
 
 export default function Projects() {

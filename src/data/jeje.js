@@ -1,4 +1,4 @@
-export const projects = [
+export const jeje = [
   {
     title: "NGO Management System",
     description:
