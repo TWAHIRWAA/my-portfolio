@@ -1,4 +1,4 @@
-import { projects } from "../data/jeje";
+import { projects } from "../data/projects";
 import { motion } from "framer-motion";
 
 export default function Projects() {
@@ -12,7 +12,7 @@ export default function Projects() {
 
         <div className="grid md:grid-cols-3 gap-6">
 
-          {projects.map((project, index) => (
+          {projects.map((projects, index) => (
             <motion.div
               key={index}
               whileHover={{
@@ -22,11 +22,11 @@ export default function Projects() {
               className="bg-slate-900 p-6 rounded-2xl border border-slate-700"
             >
               <h3 className="text-2xl font-bold mb-4">
-                {project.title}
+                {projects.title}
               </h3>
 
               <p className="text-gray-400">
-                {project.description}
+                {projects.description}
               </p>
             </motion.div>
           ))}
