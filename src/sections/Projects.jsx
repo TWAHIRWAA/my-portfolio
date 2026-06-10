@@ -1,4 +1,4 @@
-import { projects } from "../data/projects.js";
+import { projects } from "../data/projects";
 import { motion } from "framer-motion";
 
 export default function Projects() {
